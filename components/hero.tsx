@@ -99,7 +99,7 @@ export default function Hero() {
           {
             icon: <Linkedin className="h-5 w-5" />,
             label: "LinkedIn",
-            link: "www.linkedin.com/in/arnikasharma0209", // Replace with your LinkedIn link
+            link: "https://www.linkedin.com/in/arnikasharma0209", // Replace with your LinkedIn link
           }].map((social, index) => (
             <motion.a
                key={index}
