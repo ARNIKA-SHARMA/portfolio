@@ -8,6 +8,7 @@ interface NavbarProps {
   onAboutClick: () => void
   onSkillsClick: () => void
   onProjectsClick: () => void
+  onCertificatesClick: () => void
   onEducationClick: () => void
   onContactClick: () => void
 }
@@ -16,6 +17,7 @@ export default function Navbar({
   onAboutClick,
   onSkillsClick,
   onProjectsClick,
+  onCertificatesClick,
   onEducationClick,
   onContactClick,
 }: NavbarProps) {
@@ -39,6 +41,7 @@ export default function Navbar({
     { name: "About", onClick: onAboutClick },
     { name: "Skills", onClick: onSkillsClick },
     { name: "Projects", onClick: onProjectsClick },
+    { name: "Certificates", onClick: onCertificatesClick },
     { name: "Education", onClick: onEducationClick },
     { name: "Contact", onClick: onContactClick },
   ]

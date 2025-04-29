@@ -12,6 +12,7 @@ import Projects from "@/components/projects"
 import Education from "@/components/education"
 import Contact from "@/components/contact"
 import Navbar from "@/components/navbar"
+import Certificates from "@/components/certificates"
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null)
@@ -19,6 +20,7 @@ export default function Home() {
   const projectsRef = useRef<HTMLDivElement>(null)
   const educationRef = useRef<HTMLDivElement>(null)
   const contactRef = useRef<HTMLDivElement>(null)
+  const certificatesRef = useRef<HTMLDivElement>(null)
 
   const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
     ref.current?.scrollIntoView({ behavior: "smooth" })
@@ -30,6 +32,7 @@ export default function Home() {
         onAboutClick={() => scrollToSection(aboutRef)}
         onSkillsClick={() => scrollToSection(skillsRef)}
         onProjectsClick={() => scrollToSection(projectsRef)}
+        onCertificatesClick={() => scrollToSection(certificatesRef)}
         onEducationClick={() => scrollToSection(educationRef)}
         onContactClick={() => scrollToSection(contactRef)}
       />
@@ -60,6 +63,10 @@ export default function Home() {
 
       <div ref={projectsRef}>
         <Projects />
+      </div>
+
+      <div ref={certificatesRef}>
+        <Certificates />
       </div>
 
       <div ref={educationRef}>
