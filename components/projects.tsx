@@ -27,34 +27,34 @@ export default function Projects() {
       description:
         "A full-stack e-commerce application with user authentication, product catalog, and payment integration.",
       image: "/images/ecommerce-project.png",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe"],
+      techStack: ["React", "HTML/CSS", "JavaScript"],
       githubLink: "#",
       demoLink: "#",
     },
     {
       title: "Restaurant Website",
       description:
-        "A modern, responsive website for restaurants that showcases the menu, location, and enables customers to book tables online. It ensures a seamless user experience with a clean and user-friendly interface.",
+        "A modern, responsive website for restaurants that showcases the menu, location, and enables customers to book tables online.",
       image: "/images/restaurant-project.png",
-      techStack: ["PHP", "HTML", "CSS", "JavaScript"],
+      techStack: ["React", "HTML/CSS", "JavaScript"],
       githubLink: "#",
       demoLink: "#",
     },
     {
       title: "Chat Application",
       description:
-        "A real-time messaging platform built using Node.js and WebSocket, allowing users to send and receive instant messages. The application features user authentication and private messaging, providing a secure and interactive communication space.",
+        "A real-time messaging platform built using Node.js and WebSocket, allowing users to send and receive instant messages.",
       image: "/images/chat-project.png",
-      techStack: ["Node.js", "HTML/CSS", "JavaScript", "Socket.io"],
+      techStack: ["Node.js", "HTML/CSS", "JavaScript"],
       githubLink: "#",
       demoLink: "#",
     },
     {
       title: "Pollution Monitoring Dashboard",
       description:
-        "A Power BI dashboard designed to visualize air quality data, displaying real-time pollutant levels (PM10, PM2.5, Ozone, CO, NO2) across various regions. It helps track and analyze pollution trends for better environmental awareness and decision-making.",
+        "A data visualization dashboard for pollution monitoring with various charts showing pollutant levels across different regions.",
       image: "/images/pollution-dashboard.png",
-      techStack: ["PowerBI", "Data Analysis", "Data Visualization"],
+      techStack: ["Power BI"],
       githubLink: "#",
       demoLink: "#",
     },
@@ -105,7 +105,6 @@ export default function Projects() {
                     </Badge>
                   ))}
                 </CardContent>
-                
               </Card>
             </motion.div>
           ))}
